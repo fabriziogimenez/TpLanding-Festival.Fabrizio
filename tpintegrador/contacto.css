@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(imag/music.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.login {
+    width: 320px;
+    height: 420px;
+    background: #fff;
+    color: rgb(20, 14, 14)109, 56, 56);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 38px;
+
+}
+.login .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 67px);
+}
+.logo h1 {
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+
+.login label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"],
+.login input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(12, 9, 9);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(26, 15, 15);
+    font-size: 16px
+    ;
+}
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f61ea3;
+    color: rgb(34, 26, 26);
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:rgb(0, 0, 0);
+}
+.login a:hover {
+    color:rgb(20, 13, 13)10, 8, 8)
+}
+
+.inicio{
+    width: 150px;
+    height: 150px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f61ea3;
+    color: rgb(34, 26, 26);
+    font-size: 25px;
+    border-radius: 30px;
+}
